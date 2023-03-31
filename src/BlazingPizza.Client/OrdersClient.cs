@@ -27,4 +27,9 @@ public class OrdersClient
         return orderId;
     }
 
+    public async Task SubscribeToNotifications(NotificationSubscription subscription)
+    {
+        var response = await httpClient.PutAsJsonAsync("notifications/subscribe", subscription);
+        response.EnsureSuccessStatusCode();
+    }
 }
