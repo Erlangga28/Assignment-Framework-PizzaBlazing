@@ -383,7 +383,7 @@ when you're in the order details. you can look the map your order where it is
 
 </Project>
 ```
-![Assignment_1]()
+![Assignment_1](https://github.com/Erlangga28/Assignment-Framework-PizzaBlazing/blob/main/Result/BlazingComponent.png)
 
 > Writing template dialog </br>
 Put the following markup inside TemplatedDialog.razor:
